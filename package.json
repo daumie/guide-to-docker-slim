@@ -1,0 +1,31 @@
+{
+  "name": "guide-to-dockerslim",
+  "version": "1.0.0",
+  "description": "A guide to Docker slim",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "docker",
+    "dockerslim",
+    "containets"
+  ],
+  "author": "Dominic Motuka",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daumie/guide-to-docker-slim.git"
+  }
+}
